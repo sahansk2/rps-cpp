@@ -19,7 +19,7 @@ public:
 	RPSGame(int maxGames);
 
 	int runMatch(rpsChoice player1Choice, rpsChoice player2Choice);
-	void reset(int numGames=3);
+	void reset(int numGames);
 	rpsChoice getRandomChoice();
 
 	int player2Score();	
