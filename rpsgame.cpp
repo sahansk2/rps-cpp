@@ -1,7 +1,7 @@
 #include "rpsgame.hpp"
 #include <chrono>
 
-RPSGame::RPSGame(int maxGames=3)
+RPSGame::RPSGame(int maxGames)
 	: player1Score_{ 0 }, 
 	  player2Score_{ 0 }, 
 	  numGames_{ maxGames },
