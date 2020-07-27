@@ -1,4 +1,6 @@
-CXX = g++ -pedantic-errors -Werror -Wall -Wextra --std=c++11
+
+CXX := g++ -pedantic-errors -Werror -Wall -Wextra --std=c++11
+
 .PHONY: clean
 
 tests: test.o rpsgame.o
